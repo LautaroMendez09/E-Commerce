@@ -1,0 +1,388 @@
+#sec-nav {
+    width: 100%;
+    height: 90px;
+}
+
+#nav {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 70%);
+}
+
+#nav-info {
+    width: 100%;
+    height: 25px;
+    background-color: #6eaebd;
+    display: flex;
+    justify-content: center;
+}
+
+.conteCarrusel {
+    width: 32%;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemNavInfo {
+    font-size: 14.5px;
+    color: rgb(255, 255, 255);
+    display: none;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.flecha {
+    line-height: 25px !important;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.itemNavInfo.showed2 {
+    display: inline-flex;
+}
+
+#nav-elem {
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+#div-logo {
+    display: flex;
+    line-height: 110px;
+}
+
+#logo-img {
+    width: 55px;
+    height: auto;
+    vertical-align: initial;
+}
+
+#categorias {
+    display: flex;
+    justify-content: center;
+    margin: 0 195px;
+}
+
+#categorias-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 65px;
+    margin: 0 20px;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(-90deg);
+}
+
+.menu-item {
+    color: #434343;
+    font-family: "Cera Round Pro Bold";
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.menu-item:hover {
+    color: #337ab7!important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#extras {
+    height: 65px;
+    display: flex;
+}
+
+.inicio-icon {
+    font-size: 23px;
+    line-height: 65px;
+}
+
+.item-extras {
+    color: #111;
+}
+
+.item-extras:hover {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.submenu {
+    width: 60%;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    right: 20%;
+    transition: clip-path 0.3s;
+    clip-path: var(--clip);
+    transform: translateY(100%);
+    display: flex;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 50%);
+}
+
+.nav-item:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.submenu-division {
+    width: 33%;
+    height: 219px;
+    display: inline-block;
+    cursor: auto;
+}
+
+.submenu-division img {
+    width: 14.6vw;
+    height: auto;
+    margin: 32px 2.3vw;
+}
+
+.submenu-division ul {
+    width: 33%;
+    height: 219px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.submenu-division ul li {
+    font-size: 0.7em;
+    line-height: 30px;
+    width: max-content;
+    margin: 5px 0;
+}
+
+.submenu-item {
+    color: #434343;
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.submenu-item:hover {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.divSearch {
+    width: 11vw;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    box-sizing: border-box;
+}
+
+.divSearch.showed {
+    display: flex;
+    position: absolute;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 50%);
+    justify-content: center;
+}
+
+.subdiv-search {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin-top: 5.5px;
+    justify-content: center;
+}
+
+#search {
+    width: 74%;
+    height: 90%;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+#btn-search {
+    width: 22%;
+    height: 90%;
+    background-color: #024486;
+    margin-top: 2px;
+    margin-left: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+#btn-search:hover {
+    background: #6ba1de none repeat scroll 0 0;
+}
+
+#btn-search i {
+    color: #ffff;
+}
+
+.no-seleccion {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.divShopping {
+    width: 380px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 50%);
+    justify-content: center;
+    right: 10px;
+    display: none;
+    line-height: initial;
+
+}
+.divShopping.showed {
+    display: block;
+}
+
+
+
+#tabla {
+    min-height: 80px;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+#cant-carr {
+    font-size: 0.9em;
+    display: contents;
+}
+
+.fila {
+    margin: 20px 0;
+    height: 130px;
+    display: flex;
+}
+
+.cont-info {
+    width: 33%;
+    height: 130px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.info {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.nombre {
+    font-family: "Cera Round Pro Medium";
+    font-size: 22px;
+    margin-bottom: 14px;
+    width: 135px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.info .subtotal {
+    font-family: "Cera Round Pro Bold";
+}
+
+.carr-info {
+    font-family: "Cera Round Pro Light";
+    font-size: 17px;
+}
+
+.btn-i-carr {
+    font-size: 20px;
+}
+.btn-compra {
+    font-size: 17px;
+}
+
+.btn-i-carr:hover, .btn-compra:hover {
+    cursor: pointer;
+    color: #024486;
+}
+
+#tabla .fila .imagen {
+    display: inline-block;
+    width: 33%;
+}
+
+.carrito-divi {
+    align-items: center;
+    border-bottom: 2px solid #dadde1;
+    display: flex;
+    width: 100%;
+}
+
+.btns-carr {
+    width: 30%;
+    height: 130px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns-compra {
+    display: inline-flex;
+    align-items: center;
+}
+.botones {
+    line-height: 40px;
+}
+.botones-compra {
+    margin: 0 10px;
+}
+.texto {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#text-left span {
+    font-family: "Cera Round Pro Medium";
+    color: #000;
+}
+
+#text-right span {
+    font-family: "Cera Round Pro Bold";
+    color: #000;
+}
+
+.div-text {
+    display: contents;
+    font-size: 18px;
+    color: #434343;
+}
+
+#div-btn-shopping {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+#a-shopping {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #024486;
+    border: 0;
+    border-radius: 5px !important;
+    font-size: 16px;
+    color: #ffff;
+}
+
+#a-shopping:hover {
+    background: #6ba1de none repeat scroll 0 0;
+    cursor: pointer;
+}

@@ -1,0 +1,1223 @@
+@font-face {
+    font-family: "Cera Round Pro Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cera Round Pro Regular"),
+        url("../fonts/TypeMates\ \ CeraRoundProRegular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cera Round Pro Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cera Round Pro Thin"),
+        url("../fonts/TypeMates\ \ CeraRoundProThin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cera Round Pro Light"),
+        url("../fonts/TypeMates\ \ CeraRoundProLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cera Round Pro Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cera Round Pro Medium"),
+        url("../fonts/TypeMates\ \ CeraRoundProMedium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cera Round Pro Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cera Round Pro Bold"),
+        url("../fonts/TypeMates\ \ Cera\ Round\ Pro\ Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cera Round Pro Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cera Round Pro Black"),
+        url("../fonts/TypeMates\ \ CeraRoundProBlack.woff") format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Cera Round Pro Light", "Arial";
+}
+
+.title-index {
+    font-size: 3.5em;
+    padding-top: 1vh;
+    font-family: "Cera Round Pro Black";
+    color: #024486;
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 0;
+}
+
+.banner-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#sec-topventas {
+    margin-top: 90px;
+}
+.div-prods {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.subtitle-index {
+    font-family: "Cera Round Pro Medium";
+    color: #024486;
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.icon-pagInfo {
+    margin: 0 9px;
+}
+
+.container-contancto-data {
+    
+}
+
+
+
+
+.texto p {
+    font-size: 1.1em;
+    font-family: "Cera Round Pro Light";
+    color: rgb(0, 0, 0);
+}
+
+.productos {
+    display: flex;
+    margin: 20px auto;
+    width: 1211px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#title-np {
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 282px;
+    height: 100%;
+    margin: 15px 10px;
+}
+
+.box:hover {
+    box-shadow: 0 0 7px #111;
+}
+
+.preview {
+    height: 282px;
+}
+
+.preview img {
+    width: 282px;
+    height: 282px;
+}
+
+.prod-todo {
+    width: 100%;
+    height: 68px;
+}
+
+.prod-info {
+    width: 70%;
+    height: 68px;
+    display: inline-grid;
+    align-items: center;
+    margin-left: 10px;
+}
+.producto-info {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.producto-info a {
+    font-size: 1.1em;
+    font-family: "Cera Round Pro Medium";
+    font-style: normal;
+    font-weight: normal;
+    color: #111;
+}
+
+.producto-info a:hover {
+    color: #337ab7!important;
+    cursor: pointer;
+}
+
+.producto-precio {
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+.producto-precio span {
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.prod-carrito {
+    width: 20%;
+    height: 83%;
+    display: inline-grid;
+    float: right;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.carrito-prod {
+    width: 100%;
+    height: 100%;
+    display: inline-grid;
+    background-color: #03588c;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carrito-prod:hover {
+    background: #0775b9 none repeat scroll 0 0 !important;
+}
+
+.carrito-prod i {
+    color: #ffffff;
+}
+
+.index-divi {
+    align-items: center;
+    border-bottom: 2px solid #dadde1;
+    display: flex;
+    margin: 80px 0;
+    text-align: center;
+    width: 100%;
+    height: 5px;
+}
+
+#sec-cat {
+    width: 100%;
+}
+
+.container-cat {
+    width: 1165px;
+    margin: 55px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-cat {
+    position: relative;
+    display: flex;
+    height: 477px;
+}
+
+.hover-cat {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.hover-cat:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.hover-cat:hover>.a-cat {
+    display: block;
+}
+
+.img-cat {
+    width: 1165px;
+}
+
+.a-cat {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-family: "Cera Round Pro MEDIUM";
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-catS {
+    width: 555px;
+}
+
+.banner-catS {
+    position: relative;
+    display: flex;
+    height: 370px;
+}
+
+
+
+
+
+.error {
+    font-family: "Cera Round Pro Medium";
+    font-size: 50px;
+    margin: 23vh 0;
+    color: #c42121;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: #e9ebee;
+    display: flex;
+    flex-direction: column;
+}
+.pagInfo {
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.button {
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    --color: #fff;
+    padding: 0.8em 1.7em;
+    background-color: #03588c;
+    border-radius: 0.3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 400;
+    width: 18vw;
+    font-size: 12px;
+    border: 1px solid;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin: auto;
+}
+
+
+.btn-enviar-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0px auto;
+}
+.btn-enviar-contacto:hover {
+    cursor: pointer;
+    background: #0775b9;
+}
+
+
+::placeholder {
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.container-pagInfo {
+    width: 54%;
+    background: #fff;
+    box-shadow: 1px 3px 5px rgb(0 0 0 / 50%);
+    padding: 30px 10px 20px 30px;
+    margin: 50px auto 200px auto;
+}
+.container-text-pagInfo {
+    padding: 50px;
+    margin: auto;
+}
+.text-pagInfo {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #024486;
+    font-family: "Cera Round Pro Regular";
+}
+
+
+
+
+
+
+
+.rol {
+    font-family: "Cera Round Pro Medium";
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+.logout-adm {
+    margin-bottom: 30px;
+}
+
+.container-dashboard {
+    width: 69%;
+    height: 64px;
+    background: #fff;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 70%);
+}
+
+.panelAdminToolHide {
+    display: none;
+}
+.ul-dashboard {
+    display: flex;   
+    height: 80%; 
+}
+.li-dashboard {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.a-dashboard {
+    font-family: "Cera Round Pro Medium";
+    color: #000;
+    padding: 0 15px;
+}
+.li-dashboard.li-dashboard-active {
+    background: #6eaebd;
+}
+.a-dashboard.a-dashboard-active {
+    color: #fff;
+}
+.a-dashboard:hover, .a-dashboard-active:hover {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.horizontal-division {
+    align-items: center;
+    border-bottom: 2px solid #dadde1;
+    display: flex;
+    width: 100%;
+}
+.division-productCard {
+    margin: 45px 0;
+}
+.division-histCompras {
+    margin: 16px 0;
+}
+.division-addProduct-compraPA {
+    margin: 42px 0;
+    border-color:#03588C;
+}
+.productInfoDirection {
+    cursor: pointer;
+}
+.container-productCard {
+    width: 63vw;
+    height: 72vh;
+    background:#fff;
+    margin: auto;
+    display: flex;
+}
+.productCard-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productCard-img {
+    width: 400px;
+    margin-bottom: 40px;
+}
+.productCard-info {
+    width: 60%;
+    height: 100%;
+    margin: 0px 0 0 75px;
+}
+.productCard-title {
+    font-size: 44px;
+    font-family: "Cera Round Pro Bold";
+    color: #024486;
+}
+.productCard-containerInfo {
+    margin: 50px 0;
+}
+.productCard-container-amount {
+    display: inline-flex;
+}
+.productCard-titleInfo {
+    font-size: 23px;
+    font-family: "Cera Round Pro Regular";
+    margin: 9px 0;
+}
+.productCard-btnAmount {
+    margin: 32px 0 20px 0;
+}
+.btn-productInfo {
+    font-size: 22px;
+    color: #024486;
+}
+.btn-productInfo:hover {
+    cursor: pointer;
+    color: #0775b9;
+}
+.productCard-price {
+    font-size: 28px;
+    font-family: "Cera Round Pro Medium";
+}
+.productInfo-pAmount{
+    font-size: 28px;
+    font-family: "Cera Round Pro Regular";
+    margin: 0 7px;
+}
+.productCard-containerBtn {
+    width: 55px;
+    height: 55px;
+    outline: 1px solid rgba(114, 171, 204, 0.329);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productCard-containerBtn:hover {
+    background: #6eaebd;
+    cursor: pointer;
+}
+.productInfo-inpAmount {
+    width: 65px;
+    height: 55px;
+    font-size: 17px;
+    border: none;
+    text-align: center;
+    outline: 1px solid rgba(114, 171, 204, 0.329);
+}
+.productCard-description {
+    width: 100%;
+    height: 210px;
+}
+.productCard-containerDescription {
+    width: 100%;
+    height: 80%;
+    outline: 1px solid rgba(114, 171, 204, 0.329);
+    padding: 10px;
+}
+.productInfo-description {
+    font-size: 17px;
+    font-family: "Cera Round Pro Light";
+}
+.productCard-share {
+    margin: 40px 0;
+}
+.productCard-containerShare {
+    display: inline-flex;
+    margin: 10px 0;
+    font-family: "Cera Round Pro Regular";
+    font-size: 17px;
+}
+.productCard-socialMedias {
+    margin-left: 32px;
+}
+.productInfo-socialMedia {
+    color: #024486;
+    font-size: 22px;
+    margin: 0 5px;
+}
+.productInfo-socialMedia:hover {
+    color: #0775b9;
+    cursor: pointer;
+}
+
+.container-pagination {
+    margin: 90px 0;
+}
+
+.page-link-color {
+    color: #03588c;
+}
+
+
+
+
+
+
+
+
+/* PANEL USER */
+.division-panelUser {
+    margin: 15px 0;
+}
+.container-panelUser {
+    width: 46%;
+    height: 67vh;
+    background: #fff;
+    margin: 0 auto 100px auto;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 70%);
+    padding: 20px;
+}
+.container-data {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container-inps-datosPerso{
+    margin: 70px 0 70px 0;
+}
+.btn-save-datosPerso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    font-size: 14px;
+}
+.btn-save-datosPerso:hover {
+    cursor: pointer;
+    background: #0775b9;
+}
+.icon-datosPerso {
+    font-size: 18px;
+    margin: 0 8px;
+}
+
+
+.container-option {
+    height: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-btn-option {
+    height: 33%;
+    display: flex;
+}
+.option-panelUser {
+    display: inline-flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}   
+.option-panelUser-title {
+    color: #000;
+    font-family: "Cera Round Pro Medium";
+    font-size: 30px;
+}
+.btn-option-panelUser {
+    color: #fff;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    margin: 8px;
+}
+.btn-option-changePassword {
+    background: #024486;
+}
+.btn-option-changePassword:hover {
+    background: #0775b9;
+    cursor: pointer;
+}
+.btn-option-red {
+    background: #a31414;
+}
+.btn-option-red:hover {
+    background: #e33131;
+    cursor: pointer;
+}
+
+
+
+
+.center {
+    text-align: center;
+}
+
+
+
+
+
+.div-create {
+    display:flex;
+    justify-content: center;
+}
+
+.btn-create {
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.btn-createUser {
+    background: #23943b;
+}
+.btn-createUser:hover {
+    cursor: pointer;
+    background: #27a843;
+}
+.btn-createItem {
+    background: #03588C;
+}
+.btn-createItem:hover {
+    cursor: pointer;
+    background: #337ab7;
+}
+
+
+.div-container-tableCompra {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.div-container-tablePago {
+    margin: 60px 0;
+}
+
+.container-table {
+    width: 80vw;
+    padding: 40px 0;
+    margin: auto;
+    display: grid;
+    grid-auto-rows: 53px;
+    grid-gap: 1px;
+}
+.container-table-user {
+    grid-template-columns: 70px repeat(8, 1fr);
+}
+.container-table-prod {
+    grid-template-columns: 70px repeat(8, 1fr);
+}
+.container-table-histVentas {
+    grid-template-columns: 70px repeat(7, 1fr);
+}
+.container-table-histCompras {
+    grid-template-columns: repeat(5, 1fr);
+}
+.container-table-pago {
+    grid-template-columns: 64% repeat(2, 1fr);
+}
+.container-table-compra  {
+    grid-template-columns: 40% repeat(4, 1fr);
+}
+.container-table-prov, .container-table-compraPA {
+    grid-template-columns: 70px repeat(3, 1fr);
+}
+.container-table-pago {
+    width: 68vw;
+    grid-auto-rows: 46px;
+    margin: initial;
+}
+.table-title {
+    background-color: #6eaebd;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Cera Round Pro Bold";
+    grid-row: 1 / 3;
+}
+.table-title-pago {
+    grid-row: 1 / 3;
+    grid-column: 1 / 4;
+    font-size: 22px;
+}
+.table-title-user, .table-title-compraPA{
+    grid-column: 1 / 8;
+}
+.table-title-histVentas {
+    grid-column: 1 / 9;
+}
+.table-title-prod, .table-title-user {
+    grid-column: 1 / 10;
+}
+.table-title-compra, .table-title-histCompras {
+    grid-column: 1 / 6;
+}
+.table-title-prov{
+    grid-column: 1 / 7;
+}
+.table-header {
+    font-size: 22px;
+    font-family: "Cera Round Pro Medium";
+}
+.table-header-pago {
+    font-size: 18px;
+}
+.fila-table, .dplayCont {
+    display: contents;
+}
+
+.table-header,
+.table-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid rgba(114, 171, 204, 0.329);
+    background: #fff;
+    padding: 12px 7px;
+   
+}
+.table-item {
+    font-family: "Cera Round Pro Light";
+    font-size: 18px;
+}
+.table-item-large {
+    overflow: overlay;
+}
+.table-item-name {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 70px;
+}
+.table-item-total {
+    grid-column: 4/5;
+    font-family: "Cera Round Pro Medium";
+}
+.table-item-total-compra {
+    grid-column: 3/4;
+    font-family: "Cera Round Pro Medium";
+}
+
+.compra-img-product {
+    width: 40px;
+    margin-right: 24px;
+}
+.table-msj-vacio {
+    grid-row: 4 / 9;
+    font-size: 50px;
+    text-align: center;
+}
+.container-info-detallePago {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 90px;
+    flex-direction: column;
+    align-items: center;
+}
+.container-detallePago {
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+#container-btnCompra {
+    display: inline-flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+.btnCompra {
+    display: flex;
+    width: 40%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px !important;
+}
+.btnCompra a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%;
+    color: #fff;  
+}
+#limpiarCarrito {
+    background: #a31414;
+}
+#limpiarCarrito:hover {
+    background: #e33131;
+    cursor: pointer;
+}
+#realizarCompra {
+    background: #024486;
+}
+#realizarCompra:hover {
+    background: #337ab7;
+    cursor: pointer;
+}
+
+.container-envio-detallePago {
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 70%);
+}
+.container-select-detallePago {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.select-metodoEnvio {
+    width: 40%;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.select-metodoEnvio option {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.div-btn-adm {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.btn-adm {
+    height: 80%;
+    display: inline-flex;
+    margin: 0 5px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+.btn-edit {
+    color: #024486;
+}
+
+.btn-edit:hover {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.btn-rmv {
+    color: #a31414;
+}
+
+.btn-rmv:hover {
+    color: #e33131;
+    cursor: pointer;
+}
+.icon-btnsEdit {
+    margin: 0 3px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+    z-index: 1;
+}
+
+.modal.showed {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .4s .4s;
+    z-index: 1;
+    
+}
+
+.modal-container {
+    margin: auto;
+    width: 40%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: var(--transform);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.modal-header {
+    width: 100%;
+    height: 70px;
+    background: #03588C;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.modal-title {
+    color: #fff;
+    font-size: 28px;
+    padding: 0 50px;
+    font-family: "Cera Round Pro medium";
+}
+
+.modal-close {
+    color: #fff;
+    font-size: 31px;
+    position: absolute;
+    right: 30px;
+}
+.containerProductInfo-close {
+    color: #024486;
+    font-size: 26px;
+    margin-right: 10px;
+}
+.modal-close:hover, .containerProductInfo-close:hover {
+    cursor: pointer;
+    color: #6eaebd;
+}
+
+.modal-info, .modal-info-create{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-data {
+    width: 82%;
+    
+}
+.modal-data-comprasPA {
+    overflow: auto;
+    min-height: 262px;
+    max-height: 262px;
+}
+#btn-addProduct-compraPA {
+    padding: 0 21px;
+    background-color: #1d7931;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 5px;
+    width: 46px;
+}
+.modal-btns {
+    width: 90%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 30px;
+}
+.inp-editUser {
+    width: 100%;
+    height: 37px;
+    margin: 6px 0;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #424344;
+    padding: 8px;
+}
+.p-editUser {
+    font-size: 17px;
+    font-family: "Cera Round Pro Regular";
+}
+.container-title-productInfo {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.p-title-create {
+    font-family: "Cera Round Pro Medium";
+    font-size: 23px;
+}
+.container-select-histCompras {
+    width: 82%;
+}
+.select-histCompras {
+    width: 100%;
+    height: 34px;
+    margin: 12px 0;
+}
+
+.div-middle-modal-data {
+    display: flex;
+    justify-content: space-between;
+}
+.div-half-modal-data{
+    width: 48%;
+}
+
+
+.btn-open-container {
+    height: 37px;
+    border: 1px solid #024486;
+    margin: 6px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.btn-open-container i {
+    margin: 0 8px;
+}
+.container-categories {
+    display: none;
+}
+.container-categories.showed {
+    display: inline-flex;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #024486;
+    width: 39.4%;
+    padding: 6px;
+    flex-wrap: wrap;
+    height: 300px;
+    overflow: overlay;
+}
+.container-inp-categories {
+    min-width: 48%;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px;
+}
+.textarea-create  {
+    resize: none;
+    height: 100px;
+}
+
+
+
+
+
+.passeyeEditUser {
+    position: absolute;
+    right: 55px;
+    bottom: 204px;
+    transition: 0.4
+}
+.btn-modal {
+    width: 30%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px !important;
+    color: #ffff;
+    cursor: pointer;
+    margin: 0 40px;
+}
+.btn-accept-editUser {
+    background: #024486;
+}
+.btn-accept-editUser:hover {
+    background: #337ab7;
+}
+.btn-cancel-modal {
+    background: #a31414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13.33px;
+}
+.btn-cancel-modal:hover {
+    background: #e33131;
+}
+.form {
+    display: contents;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i-i-margin {
+    margin: 0 25px;
+}
+
+.checkCat {
+    display: none;
+}
+
+.mostrar-menu,
+.esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.flecha-nav {
+    display: none !important;
+}

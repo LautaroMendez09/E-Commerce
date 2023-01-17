@@ -1,0 +1,151 @@
+
+footer {
+    width: 100%;
+}
+
+.wave-footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/wave.png);
+    background-size: 1000px 100px;
+    animation: wave-footer 20s linear infinite;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-color: #03588c;
+    display: flex;
+}
+
+@keyframes wave-footer {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+#contenedor {
+    width: 1212px;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box {
+    width: 25%;
+    height: 100%;
+}
+
+.footer-title h2 {
+    font-family: "Cera Round Pro Medium";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #6eaebd;
+}
+
+.footer-info li {
+    line-height: 2;
+}
+
+.footer-info li img {
+    width: 160px;
+    margin-top: 6px;
+}
+
+.footer-info li>a:hover {
+    color: #4ea3b6!important;
+}
+.curPointer {
+    cursor: pointer;
+}
+
+.footer-info li,
+.footer-info li>a {
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-info p {
+    font-family: "Cera Round Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.footer-info-li i {
+    font-family: "Cera Round Pro Medium";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-right: 6px;
+}
+
+.footer-info-li {
+    margin-top: 6px;
+    line-height: 1.1 !important;
+}
+
+#div-nl {
+    display: flex;
+    margin-top: 20px;
+}
+
+#input-nl {
+    width: 75%;
+    height: 50px;
+    padding: 5px;
+}
+
+#btn-nl {
+    width: 20%;
+    height: 50px;
+    background-color: #024486;
+    cursor: pointer;
+    border: none;
+}
+
+#btn-nl:hover {
+    background: #6ba1de none repeat scroll 0 0;
+}
+
+#btn-nl i {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+#social-media {
+    margin-top: 20px;
+    display: inline-flex;
+    border: 2px solid #024486;
+}
+
+#social-media i {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+
+#social-media i:hover {
+    color: #6eaebd;
+}
+
+.footer-logo {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    bottom: 0;
+}
